@@ -27,7 +27,7 @@ angular.module('ascii2BrainApp')
 
 
 angular.module('ascii2BrainApp')
-  .controller('BeginnerCtrl', function () {
+  .controller('GeekCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
