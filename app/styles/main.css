@@ -1,6 +1,23 @@
-
 .container {
   margin-bottom: 50px;
+}
+
+.card-box {
+  float: left;
+  margin: 10px;
+  width: 100px;
+  height: 150px;
+}
+
+.back {
+  font-size: 50px;
+  color: white;
+  background: black;
+  text-align: center;
+}
+
+.front {
+  background: black;
 }
 
 .intro {
@@ -14,6 +31,16 @@
 
 .devfest-img {
   width: 100px
+}
+
+.front {
+  width: 100px;
+  height: 150px;
+}
+
+.back {
+  width: 100px;
+  height: 150px;
 }
 
 footer{
