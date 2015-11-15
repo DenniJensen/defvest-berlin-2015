@@ -1,12 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name ascii2BrainApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the ascii2BrainApp
- */
 angular.module('ascii2BrainApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
@@ -24,7 +17,6 @@ angular.module('ascii2BrainApp')
       'Karma'
     ];
   });
-
 
 angular.module('ascii2BrainApp')
   .controller('GeekCtrl', function () {

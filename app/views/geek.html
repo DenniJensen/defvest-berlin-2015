@@ -1,6 +1,7 @@
-<div class="jumbotron">
+<div class="jumbotron" ng-controller='GeekCtrl as geek'>
+  <p> <a class="" ng-href="#/">Back</a></p>
   <h1>Hello Geek!</h1>
-  <p class="lead">
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <div ng-repeat="ascii in geek.awesomeThings">
+    {{ascii}}
+  </div>
 </div>
