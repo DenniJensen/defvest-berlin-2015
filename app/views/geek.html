@@ -1,7 +1,23 @@
 <div class="jumbotron" ng-controller='GeekCtrl as geek'>
   <p> <a class="" ng-href="#/">Back</a></p>
   <h1>Hello Geek!</h1>
-  <div ng-repeat="ascii in geek.awesomeThings">
-    {{ascii}}
-  </div>
+  <img class='devfest-img' alt='devfest' src="images/devfest.jpg">
+  <table class='table table-bordered'>
+    <tr>
+      <th>
+        ASCII
+      </th>
+      <th>
+        VALUE
+      </th>
+    </tr>
+    <tr ng-repeat="(key, ascii) in geek.data">
+      <td>
+        {{key}}
+      </td>
+      <td>
+       {{ascii}}
+      </td>
+    </tr>
+  </table>
 </div>
