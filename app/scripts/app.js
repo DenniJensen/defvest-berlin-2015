@@ -11,11 +11,7 @@
 angular
   .module('ascii2BrainApp', [
     'ngAnimate',
-    'ngCookies',
-    'ngResource',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -23,6 +19,16 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl',
         controllerAs: 'main'
+      })
+      .when('/beginner',{
+        templateUrl: 'views/beginner.html',
+        controller: 'BeginnerCtrl',
+        controllerAs: 'beginner'
+      })
+      .when('/geek', {
+        templateUrl: 'views/geek.html',
+        controller: 'GeekCtrl',
+        controllerAs: 'geek'
       })
       .otherwise({
         redirectTo: '/'

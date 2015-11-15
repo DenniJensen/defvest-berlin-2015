@@ -15,3 +15,22 @@ angular.module('ascii2BrainApp')
       'Karma'
     ];
   });
+
+angular.module('ascii2BrainApp')
+  .controller('BeginnerCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });
+
+
+angular.module('ascii2BrainApp')
+  .controller('BeginnerCtrl', function () {
+    this.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
+  });
