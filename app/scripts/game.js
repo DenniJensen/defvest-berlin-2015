@@ -1,11 +1,10 @@
-$(document).ready(function(){
+angular.element(document).ready(function () {
   var clicks = 3;
-  var values;
+  var clicked = [];
 
   $('.card-box').flip();
 
   $(document).on('click', '.unclicked' ,function(){
     $(this).flip();
-    console.log(this);
   });
 });

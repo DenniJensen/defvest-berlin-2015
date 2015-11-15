@@ -1,19 +1,29 @@
-<div class="jumbotron" ng-controller='GeekCtrl as geek'>
-  <div class="card">
-    <div class="front">
-      Front content
+<div class="content" ng-controller='BeginnerCtrl as beginner'>
+  <h1>Hello Geek!</h1>
+  <h3>Welcome to DevFest Berlin 2015.</h3>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Back</a></p>
+  <div ng-repeat="(key, ascii) in beginner.data">
+    <div class='card-box unclicked'>
+      <div class='front'>
+        <img data='{{key}}' class='card devfest-img' alt='devfest' src="images/devfest.jpg">
+      </div>
+      <div class='back'>
+        {{key}}
+      </div>
     </div>
-    <div class="back">
-      Back content
+    <div class='card-box unclicked'>
+      <div class='front'>
+        <img data='{{key}}' class='card devfest-img' alt='devfest' src="images/devfest.jpg">
+      </div>
+      <div class='back'>
+        {{ascii}}
+      </div>
     </div>
   </div>
 
-  <script src="jquery.js"></script>
-  <script src="jquery.flip.js"></script>
   <script>
-$(function($) {
-  $(".card").flip();
-});
+    $(function($) {
+      $(".card-box").flip();
+    });
   </script>
-
 </div>

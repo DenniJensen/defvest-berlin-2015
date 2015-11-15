@@ -2,11 +2,15 @@
   margin-bottom: 50px;
 }
 
+.content {
+  text-align: center
+}
+
 .card-box {
   float: left;
   margin: 10px;
   width: 100px;
-  height: 150px;
+  height: 130px;
 }
 
 .back {
@@ -46,9 +50,15 @@
 footer{
   background: #3b3b3b;
   text-align: center;
-  height: 200px;
+  height: 900px;
 }
 footer a {
   color: green;
   font-size: 80px;
+
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: lightgreen;
 }
