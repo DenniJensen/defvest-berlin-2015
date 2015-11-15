@@ -1,0 +1,23 @@
+
+.container {
+  margin-bottom: 50px;
+}
+
+.intro {
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.intro h1{
+  font-size: 80px
+}
+
+footer{
+  background: #3b3b3b;
+  text-align: center;
+  height: 200px;
+}
+footer a {
+  color: green;
+  font-size: 80px;
+}
